@@ -1,0 +1,14 @@
+mongod: runs mongo demon
+mongo: opens mongo shell
+help: shows list of basic features of mongo
+use: switches to specified db and creates it if it doesn't exist
+insert: creates an entry within specified collection.
+        Collection is created if it does not exist
+        "db.collection.insert()"
+find: Finds entry within a collection "db.collection.find()"
+        Data fields can be specified for more specific db entry
+update: Updates values of specified object "db.collection.update()"
+        $set: {}, updates object field without deleting others
+remove: deletes entries with provided data
+
+CRUD: Create, Read, Update, Destroy
